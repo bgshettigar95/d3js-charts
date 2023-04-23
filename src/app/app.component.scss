@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.filter {
+  height: 4rem;
+  background: whitesmoke;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.details {
+  border: 1px solid lightgrey;
+  width: max-content;
+  padding: 1.5rem;
+  padding-left: 1rem;
+}
+
+.details-container {
+  display: flex;
+}
+.total {
+  font-weight: bold;
+  color: rgb(47, 47, 47);
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    align-items: center;
+  }
+
+  .filter {
+    display: flex;
+    justify-content: center;
+  }
+}
